@@ -1,0 +1,117 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top:3%;
+  margin-bottom:3%;
+}
+
+.left-stick{
+	margin-left:5%;
+}
+.add{
+	width:500px;
+	height:400;
+	padding-top:15%;
+	font-family:Berlin sans FB Demi;
+	float: right;
+	color:purple;
+
+}
+.mad{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+h1
+{
+	text-align:right;
+	font-family:Bauhaus;
+	font-style:italic;
+	color:darkblue;
+	font-weight:bold;
+	margin-top:5%;
+	margin-right:10%;
+}
+.head
+{
+	text-align:center;
+	font-family:forte;
+	color:darkcyan;
+}
+.map{
+	background-color:black;
+	margin-left:5%;
+	border-style:bold;
+}
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+body{
+	background-image:url("image/bg1.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.nav{
+	position:relative!important;
+   margin-top:-5%;
+   margin-left:5%;
+}
+.nav-link{
+		color:purple;
+		font-size:20px;
+}
